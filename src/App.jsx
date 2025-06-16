@@ -64,9 +64,15 @@ function App() {
               <h1 className="text-lg font-semibold mt-2">
                 The Future of Wearable Tech: Innovations Shaping Our Lives
               </h1>
-              <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                Read More
-              </button>
+                <a
+                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
+                  Read More
+                </button>
+              </a>
             </div>
 
             <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
@@ -79,9 +85,15 @@ function App() {
                 Unplugged Adventures: How Digital Detoxing Transformed My
                 Travels
               </h1>
-              <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                Read More
-              </button>
+                <a
+                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
+                  Read More
+                </button>
+              </a>
             </div>
 
             <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
@@ -93,9 +105,15 @@ function App() {
               <h1 className="text-lg font-semibold mt-2">
                 From Burnout to Balance: My Journey to Wellness and Productivity
               </h1>
-              <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                Read More
-              </button>
+                 <a
+                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
+                  Read More
+                </button>
+              </a>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
               <img
@@ -106,9 +124,15 @@ function App() {
               <h1 className="text-lg font-semibold mt-2">
 Navigating Social Media Trends: What Marketers Need to Know in 2025
               </h1>
-              <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                Read More
-              </button>
+              <a
+                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
+                  Read More
+                </button>
+              </a>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
               <img
@@ -119,9 +143,15 @@ Navigating Social Media Trends: What Marketers Need to Know in 2025
               <h1 className="text-lg font-semibold mt-2">
 Smart Homes: How IoT is Revolutionizing Everyday Living
               </h1>
-              <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                Read More
-              </button>
+                <a
+                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
+                  Read More
+                </button>
+              </a>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
               <img
