@@ -2,39 +2,45 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-
+import { Header } from "./components/Header";
+import { BlogCard } from "./components/BlogCard";
+import { Footer } from "./components/Footer";
 function App() {
+const blogs = [
+  {
+    image: "/blog1.png",
+    title: "The Future of Wearable Tech: Innovations Shaping Our Lives",
+    link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
+  },
+  {
+    image: "/blog3.png",
+    title: "Unplugged Adventures: How Digital Detoxing Transformed My Travels",
+    link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
+  },
+  {
+    image: "/blog2.png",
+    title: "From Burnout to Balance: My Journey to Wellness and Productivity",
+    link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
+  },
+  {
+    image: "/blog2.png",
+    title: "Navigating Social Media Trends: What Marketers Need to Know in 2025",
+    link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
+  },
+  {
+    image: "/blog4.png",
+    title: "Smart Homes: How IoT is Revolutionizing Everyday Living",
+    link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
+  },
+  {
+    image: "/blog.png",
+    title: "Cybersecurity Basics: Protecting Your Digital Life in 2026",
+    link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
+  },
+];
   return (
     <div>
-      <header className="bg-pink-200 fixed top-0 left-0 w-full z-10 shadow-md">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between">
-          <h1 className="text-lg font-mono mb-2 sm:mb-0 ">
-            Nida<span className="text-purple-400">Khan</span>
-          </h1>
-          <ul className="flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0">
-            <li>
-              <a href="#" className="text-gray-50 hover:text-purple-400">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-white hover:text-purple-400">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-white hover:text-purple-400">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-white hover:text-purple-400">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </header>
+        <Header/>
       <main className="pt-28">
         <section className="min-h-screen flex flex-col justify-center items-center px-4 text-center">
           <h2 className="text-3xl font-semibold text-pink-500 mb-2">
@@ -53,127 +59,14 @@ function App() {
           </button>
         </section>
 
-        <section className="p-4">
+         <section className="p-4">
           <div className="flex flex-wrap gap-6 justify-center">
-            <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
-              <img
-                src="/blog1.png"
-                alt="pic of a guy"
-                className="w-full h-auto rounded-md"
-              />
-              <h1 className="text-lg font-semibold mt-2">
-                The Future of Wearable Tech: Innovations Shaping Our Lives
-              </h1>
-                <a
-                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                  Read More
-                </button>
-              </a>
-            </div>
-
-            <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
-              <img
-                src="/blog3.png"
-                alt="pic of a guy"
-                className="w-full h-autorounded-md"
-              />
-              <h1 className="text-lg font-semibold mt-2">
-                Unplugged Adventures: How Digital Detoxing Transformed My
-                Travels
-              </h1>
-                <a
-                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                  Read More
-                </button>
-              </a>
-            </div>
-
-            <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
-              <img
-                src="/blog2.png"
-                alt="pic of a guy"
-                className="w-full h-auto rounded-md"
-              />
-              <h1 className="text-lg font-semibold mt-2">
-                From Burnout to Balance: My Journey to Wellness and Productivity
-              </h1>
-                 <a
-                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                  Read More
-                </button>
-              </a>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
-              <img
-                src="/blog2.png"
-                alt="pic of a guy"
-                className="w-full h-auto rounded-md"
-              />
-              <h1 className="text-lg font-semibold mt-2">
-Navigating Social Media Trends: What Marketers Need to Know in 2025
-              </h1>
-              <a
-                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                  Read More
-                </button>
-              </a>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
-              <img
-                src="/blog4.png"
-                alt="pic of a guy"
-                className="w-full h-auto rounded-md"
-              />
-              <h1 className="text-lg font-semibold mt-2">
-Smart Homes: How IoT is Revolutionizing Everyday Living
-              </h1>
-                <a
-                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                  Read More
-                </button>
-              </a>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 bg-white rounded-md shadow-md p-4">
-              <img
-                src="/blog.png"
-                alt="pic of a guy"
-                className="w-full h-auto rounded-md"
-              />
-              <h1 className="text-lg font-semibold mt-2">
-                Cybersecurity Basics: Protecting Your Digital Life in 2026
-              </h1>
-              <a
-                href="https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="mt-3 p-2 hover:text-purple-300 bg-pink-200 rounded-md">
-                  Read More
-                </button>
-              </a>
-            </div>
+            {blogs.map((blog, index) => (
+              <BlogCard key={index} {...blog} />
+            ))}
           </div>
         </section>
+<Footer/>
       </main>
     </div>
   );
