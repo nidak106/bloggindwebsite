@@ -11,7 +11,7 @@ const Home = () => {
         Welcome to My Journey of <br /> Discovery and Growth
       </h1>
       <p className="text-lg sm:text-xl text-gray-700 max-w-2xl mb-6">
-        A marketing professional passionate about exploring the world, embracing technology, enhancing personal growth, and nurturing wellness.
+        A Tech Enthusiast passionate about exploring the world, embracing technology, enhancing personal growth, and nurturing wellness.
       </p>
       <button
         className="bg-pink-200 hover:bg-purple-300 text-white font-semibold py-3 px-6 rounded-full shadow-md transition-all"
