@@ -39,7 +39,7 @@ const Contact = () => {
 
     setTimeout(() => {
       setSuccess(false);
-    }, 3000);
+    }, 2000);
   };
 
   return (
@@ -81,7 +81,7 @@ const Contact = () => {
           />
           <button
             type="submit"
-            className="w-full bg-pink-200 text-white font-semibold py-3 rounded-md hover:text-pink-300 transition-colors"
+            className="w-full text-shadow-2xs bg-pink-200 text-white font-semibold py-3 rounded-md hover:text-pink-300 transition-colors"
           >
             Send Message
           </button>
