@@ -18,12 +18,12 @@ const blogs = [
     link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
   },
   {
-    image: "/blog2.png",
+    image: "/blog4.png",
     title: "Navigating Social Media Trends: What Marketers Need to Know in 2025",
     link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
   },
   {
-    image: "/blog4.png",
+    image: "/blog2.png",
     title: "Smart Homes: How IoT is Revolutionizing Everyday Living",
     link: "https://websitedemos.net/lifestyle-blogger-04/unplugged-adventures-how-digital-detoxing-transformed-my-travels/?customize=template",
   },

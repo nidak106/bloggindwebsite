@@ -10,6 +10,8 @@ export const Header = () => {
           <ul className="flex space-x-6">
             <li><Link to="/" className="text-white hover:text-pink-400">Home</Link></li>
             <li><Link to="/blogs" className="text-white hover:text-pink-400">Blog</Link></li>
+            <li><Link to="/contact" className="text-white hover:text-pink-400">Contact</Link></li>
+            <li><Link to="/about" className="text-white hover:text-pink-400">About</Link></li>
           </ul>
         </nav>
       </div>
