@@ -7,8 +7,8 @@ const About = () => {
       {/* Profile Image */}
       <div className="mb-8">
         <img 
-           src="/blog2.png"// 👉 replace with your actual image path
-          alt="Nida"
+           src="/blog2.png"//
+          alt="img"
           className="w-60 h-60 rounded-full object-cover shadow-2xl border-4 border-white"
         />
       </div>
@@ -17,7 +17,7 @@ const About = () => {
       <h1 className="text-5xl font-bold text-pink-600 mb-4">Hey, I'm Nida 👩‍💻</h1>
 
       {/* Subheading */}
-      <h2 className="text-2xl text-gray-700 mb-6 italic">Passionate Web Developer & Coder</h2>
+      <h2 className="text-2xl text-gray-700 mb-6 font-bold">Passionate Web Developer & Coder</h2>
 
       {/* Paragraph */}
       <p className="max-w-3xl text-center text-lg text-gray-800 leading-relaxed mb-8">
